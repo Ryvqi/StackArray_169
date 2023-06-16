@@ -56,6 +56,7 @@ int main() {
 	{
 		cout << endl;
 		cout << "\n***Stack Menu***\n";
-		cout
+		cout << "1. Push\n";
+		cout << "2. Pop\n";
 	}
 }
