@@ -42,9 +42,13 @@ public:
 			cout << " \nStack is empty " << endl;
 		}
 		else {
-			for (int tmp = 0; tmp <= top; tmp++) {
+			for (int tmp = top; tmp >= top; tmp--) {
 				cout << stack_array[top] << endl;
 			}
 		}
 	}
 };
+
+int main() {
+	StackArray s;
+}
