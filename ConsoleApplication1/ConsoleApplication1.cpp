@@ -2,7 +2,20 @@
 #include <string>
 using namespace std;
 
-class stackarray {
+class StackArray {
 private:
-	int 
+	int stack_array[5];
+	int top;
+public:
+	//constructor
+	StackArray() {
+		top = -1;
+
+	}
+
+	int push(int element) {
+		if (top == 4) { //step 1
+			cout << " Number "
+		}
+	}
 };
