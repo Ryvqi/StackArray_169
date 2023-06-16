@@ -65,7 +65,11 @@ int main() {
 		switch (ch)
 		{
 		case '1': {
-
+			int element;
+			cout << "\nEnter an Element: ";
+			cin >> element;
+			s.push(element);
+			break;
 		}
 		}
 	}
