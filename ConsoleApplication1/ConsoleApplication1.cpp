@@ -60,6 +60,13 @@ int main() {
 		cout << "2. Pop\n";
 		cout << "3. Display\n";
 		cout << "4. Exit\n";
+		cout << "\nEnter your choice: ";
+		cin >> ch;
+		switch (ch)
+		{
+		case '1': {
 
+		}
+		}
 	}
 }
